@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TimeWheels" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primarydark</item>
+        <item name="colorAccent">@color/my_light_primaryAccentdark</item>
+    </style>
+</resources>

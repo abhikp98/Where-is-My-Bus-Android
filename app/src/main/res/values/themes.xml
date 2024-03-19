@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TimeWheels" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="colorPrimaryDark">@color/my_light_primaryDark</item>
+        <item name="colorAccent">@color/my_light_primaryAccent</item>
+    </style>
+
+    <style name="Theme.TimeWheels" parent="Base.Theme.TimeWheels" />
+
+    <style name="Theme.TimeWheels.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TimeWheels.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TimeWheels.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
